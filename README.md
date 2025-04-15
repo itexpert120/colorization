@@ -1,5 +1,7 @@
 <!--<h3><b>Colorful Image Colorization</b></h3>-->
+
 ## <b>Colorful Image Colorization</b> [[Project Page]](http://richzhang.github.io/colorization/) <br>
+
 [Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In [ECCV, 2016](http://arxiv.org/pdf/1603.08511.pdf).
 
 **+ automatic colorization functionality for Real-Time User-Guided Image Colorization with Learned Deep Priors, SIGGRAPH 2017!**
@@ -11,8 +13,9 @@
 **Clone the repository; install dependencies**
 
 ```
-git clone https://github.com/richzhang/colorization.git
-pip install requirements.txt
+git clone https://github.com/itexpert120/colorization
+cd colorization
+pip install -r requirements.txt
 ```
 
 **Colorize!** This script will colorize an image. The results should match the images in the `imgs_out` folder.
@@ -33,7 +36,7 @@ colorizer_siggraph17 = colorizers.siggraph17().eval()
 
 The original implementation contained train and testing, our network and AlexNet (for representation learning tests), as well as representation learning tests. It is in Caffe and is no longer supported. Please see the [caffe](https://github.com/richzhang/colorization/tree/caffe) branch for it.
 
-### Citation ###
+### Citation
 
 If you find these models useful for your resesarch, please cite with these bibtexs.
 
@@ -56,5 +59,6 @@ If you find these models useful for your resesarch, please cite with these bibte
 }
 ```
 
-### Misc ###
+### Misc
+
 Contact Richard Zhang at rich.zhang at eecs.berkeley.edu for any questions or comments.
